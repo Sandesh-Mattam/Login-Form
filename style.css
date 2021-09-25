@@ -1,0 +1,30 @@
+.loginForm {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-30% , -43%);
+}
+body {
+  background-image: url(PolygonsBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginItem {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.loginInput {
+  border: none;
+  border-left: 3px solid black;
+  border-bottom: 6px solid black;
+  text-align: left;
+}
+.loginLabel {
+  padding : 5px;
+  background-color: inherit;
+}
+#submitButton {
+  background-color: rgba(0, 0, 0, 0.4);
+}
